@@ -58,10 +58,10 @@ silent.
 Gemini and Copilot appear in settings but have no reader yet, so their toggles
 stay disabled until a sample session file is available.
 
-Scan results are cached under `$XDG_CACHE_HOME/omarchy/tokenmaxing`.
+Scan results are cached under `$XDG_CACHE_HOME/tokenmaxing`.
 
 Daily token and message totals are saved locally per agent under
-`$XDG_CACHE_HOME/omarchy/tokenmaxing/history/<agentId>.json`, capped at 90
+`$XDG_CACHE_HOME/tokenmaxing/history/<agentId>.json`, capped at 90
 days, and back the token history chart independent of how far back the
 underlying transcripts are still retained.
 

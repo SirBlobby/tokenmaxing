@@ -28,7 +28,7 @@ pub fn cache_root() -> PathBuf {
         .filter(|value| !value.trim().is_empty())
         .map(PathBuf::from)
         .unwrap_or_else(|| dirs::home_dir().unwrap_or_default().join(".cache"));
-    let root = base.join("omarchy").join("tokenmaxing");
+    let root = base.join("tokenmaxing");
     let _ = fs::create_dir_all(&root);
     root
 }
